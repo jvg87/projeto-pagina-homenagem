@@ -16,8 +16,9 @@ body{
 }
 
 #image{
-    max-width: ;
-    height: ;
+    display: flex;
+    max-width: px;
+    height: px; 
 }
 
 #img-div{
@@ -25,9 +26,11 @@ body{
     background-color: lightgreen;
 }
 
+#img-caption{
+    display: inline-block;
+}
+
 #tribute-info{
     background-color: yellow;
-    flex: row wrap;
-    justify-content: center;
-    align-items: center;
+  
 }
