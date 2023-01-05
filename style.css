@@ -25,7 +25,7 @@ body{
 #img-div{
   border: 1px solid black;
   background: white;
-  
+  display: block;
   height: auto;
   max-width: 100%;
   margin:0 15px;
@@ -33,15 +33,21 @@ body{
   }
 
 #image{
-    display: inline-block;
-    max-width: 100%;
-    margin-left: 10%;
-    padding-bottom: 20px;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-left: 10%;
+  padding-bottom: 20px;
 
 }
 
 #img-caption{
-    
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.603);
 }
 
 
