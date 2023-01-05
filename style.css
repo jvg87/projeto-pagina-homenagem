@@ -10,27 +10,67 @@ body{
 }
 
 #main{
-    border: 1px solid gray;
-    background-color: lightgrey;
-    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.397);
+    margin: 30px 10px;
+    padding-top: 50px;
 }
 
-#image{
-    display: flex;
-    max-width: px;
-    height: px; 
+#title{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
 }
 
 #img-div{
-    border: 1px solid green;
-    background-color: lightgreen;
+  border: 1px solid black;
+  background: white;
+  
+  height: auto;
+  max-width: 100%;
+  margin:0 15px;
+  overflow: hidden;
+  }
+
+#image{
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+
 }
 
 #img-caption{
-    display: inline-block;
+    
 }
 
+
+
 #tribute-info{
-    background-color: yellow;
+    border: 1px solid red;
+    /* display: inline-block; */
+    /* display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(211, 211, 211, 0);
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-left:25%;
+    margin-right: 25%; */
+    
+  }
+
+  #tribute-info h2{
+    padding-bottom: 50px;
+  }
+
+  #tribute-info li{
+    padding-bottom: 40px;
+  }
+
   
-}
+
+  footer{
+    text-align: center;
+  }
