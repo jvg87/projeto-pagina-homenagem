@@ -32,11 +32,15 @@
   max-width: 100%;
   margin: 30px auto 20px auto;
   background-color: white;
+  
   }
 
  #foto{
   display: block;
   margin: 10px auto;
+  height: auto;
+  max-width: 100%;
+ 
  }
 
  #legenda{
@@ -61,4 +65,13 @@
   text-align: left;
   line-height: 2.6;
   
+ }
+
+ li{
+  margin: 10px;
+ }
+
+ #rodape{
+  text-align: center;
+  margin: 15px;
  }
