@@ -23,39 +23,31 @@ body{
 }
 
 #img-div{
-  border: 1px solid black;
   background: white;
   display: block;
   height: auto;
   max-width: 100%;
-  margin:0 15px;
+  margin:1%;
   overflow: hidden;
   }
 
 #image{
   display: block;
-  position: relative;
   max-width: 100%;
   height: auto;
-  margin-left: 10%;
-  padding-bottom: 20px;
+  margin: 0 10%;
 
 }
 
 #img-caption{
   display: block;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin: 2%;
   text-align: center;
   color: rgba(0, 0, 0, 0.603);
 }
 
-
-
 #tribute-info{
-    border: 1px solid red;
-    /* display: inline-block; */
-    /* display: flexbox;
+    display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(211, 211, 211, 0);
@@ -64,7 +56,6 @@ body{
     padding-top: 30px;
     margin-left:25%;
     margin-right: 25%; */
-    
   }
 
   #tribute-info h2{
@@ -75,8 +66,7 @@ body{
     padding-bottom: 40px;
   }
 
-  
-
   footer{
     text-align: center;
+    padding-bottom:2% ;
   }
